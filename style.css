@@ -1,6 +1,7 @@
 .wrapper {
   min-height: 100vh;
   background: url("bg.jpg");
+  font-family: "Roboto Mono", monospace;
 }
 
 .user-card span {
