@@ -28,18 +28,19 @@ const displayUsers = (users) => {
         <div class="card-body">
 
         <div>
-        <span></span>${user.cell}
+        <span><i class="fa-solid fa-mobile-screen-button"></i></span> ${user.cell}
         </div>
 
-        <div>
-        <span></span>${user.email}
-        </div>
-
-        <div>
+         <div>
         <span>
-        <i class="fa-solid fa-location-dot"></i>
-        </span>${user.location.city}, ${user.location.country}
+        <i class="fa-solid fa-location-dot"></i></span> ${user.location.city}, ${user.location.country}
         </div>
+
+        <div>
+        <span><i class="fa-solid fa-envelope"></i></span>${user.email}
+        </div>
+
+       
 
      </div>
      </div>
